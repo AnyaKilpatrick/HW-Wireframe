@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wireframe</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <header>header</header>
-    <nav>nav</nav>
-    <section>
+<!-- Placing header and nav -->
+    <header class="content">header</header>
+    <nav class="content">nav</nav>
+
+<!-- Placing article inside of the "section" -->
+    <section class="content">
         <p>section</p>
-        <article>article
+        <article>
+            <p>article</p>
             <h1>h1,h2,h3</h1>
-            <p>p</p>
+            <p id="inside">p</p>
         </article>
     </section>
-    <aside>aside</aside>
-    <footer>footer</footer>
+
+<!-- "Aside" content will go aside of "Section" -->
+    <aside class="content">
+        <p>aside</p>
+    </aside>
+
+<!-- "Footer" will go separately on the bottom -->
+    <footer class="content">footer</footer>
 </body>
 </html>
